@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontrol Musik dengan Hand Gesture</title>
+    <style>
+        video, canvas { position: absolute; top: 0; left: 0; }
+        audio { position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); }
+    </style>
+</head>
+<body>
+    <video id="video" autoplay></video>
+    <canvas id="canvas"></canvas>
+
+    <audio id="audioPlayer" controls>
+        <source src="lagu1.mp3" type="audio/mp3">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
